@@ -1,5 +1,10 @@
 name: "Open-AI Code Review Action"
 description: "Perform code reviews and comment on diffs using OpenAI API."
+inputs:
+  name:
+    description: 'The name of the person to greet'
+    required: true
+    default: 'World'
  
 runs:
   using: "node20"
